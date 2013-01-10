@@ -6,3 +6,7 @@
 ## Install
 
 Copy `chelevra.tmTheme` to you `Color Scheme - Default` directory.
+
+## Contribute
+
+Fork. Edit `src/chelevra.json`, then run `build.sh` from the `src` directory. Pull Request.
