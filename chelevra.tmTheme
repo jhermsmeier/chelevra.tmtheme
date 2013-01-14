@@ -63,6 +63,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#F5F1F2AF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
@@ -114,19 +127,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage</string>
-			<key>scope</key>
-			<string>storage</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C6F56A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -142,6 +142,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C6F56A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Operator</string>
 			<key>scope</key>
 			<string>keyword.operator</string>
@@ -149,6 +160,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF6F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -169,30 +202,6 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function name</string>
-			<key>scope</key>
-			<string>entity.name.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#F5F1F2AF</string>
-			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -237,11 +246,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F9267250</string>
-				<key>fontStyle</key>
-				<string></string>
+				<string>#FF4444</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -255,6 +262,50 @@
 				<string>#AE81FF50</string>
 				<key>foreground</key>
 				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Selector</string>
+			<key>scope</key>
+			<string>meta.selector.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>meta.selector.css punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F08F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property Name</string>
+			<key>scope</key>
+			<string>support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F8F8F088</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Constant</string>
+			<key>scope</key>
+			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBD2DE</string>
 			</dict>
 		</dict>
 	</array>
