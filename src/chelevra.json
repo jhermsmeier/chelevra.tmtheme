@@ -19,178 +19,172 @@
         "selectionBorder" : "#B4C2D630",
         "tagsOptions" : "stippled_underline"
       }
-    },
-    {
+    },{
+      "name": "Strings",
       "scope" : "string",
       "settings" : {
         "foreground" : "#91E1FF"
-      },
-      "name" : "Strings"
-    },
-    {
+      }
+    },{
+      "name": "Variable",
       "scope" : "variable.parameter",
       "settings" : {
         "foreground" : "#9FB2BC"
-      },
-      "name" : "Variable"
-    },
-    {
+      }
+    },{
+      "name": "Function argument",
       "scope" : "variable.parameter",
       "settings" : {
         "fontStyle" : "italic",
         "foreground" : "#F5F1F2AF"
-      },
-      "name" : "Function argument"
-    },
-    {
+      }
+    },{
+      "name": "Number",
       "scope" : "constant.numeric",
       "settings" : {
         "foreground" : "#FFCD22"
-      },
-      "name" : "Number"
-    },
-    {
+      }
+    },{
+      "name": "Built-in constant",
       "scope" : "constant.language",
       "settings" : {
         "foreground" : "#BBD2DE"
-      },
-      "name" : "Built-in constant"
-    },
-    {
+      }
+    },{
+      "name": "Comments",
       "scope" : "comment",
       "settings" : {
         "foreground" : "#FFFFFF50"
-      },
-      "name" : "Comments"
-    },
-    {
+      }
+    },{
+      "name": "Comment Punctuation",
       "scope" : "comment punctuation",
       "settings" : {
         "foreground" : "#FFFFFF20"
-      },
-      "name" : "Comment Punctuation"
-    },
-    {
+      }
+    },{
+      "name": "Library",
       "scope" : "support",
       "settings" : {
         "fontStyle" : ""
-      },
-      "name" : "Library"
-    },
-    {
+      }
+    },{
+      "name": "Keyword",
       "scope" : "keyword",
       "settings" : {
         "foreground" : "#C6F56A"
-      },
-      "name" : "Keyword"
-    },
-    {
+      }
+    },{
+      "name": "Storage",
       "scope" : "storage",
       "settings" : {
         "foreground" : "#C6F56A"
-      },
-      "name" : "Storage"
-    },
-    {
+      }
+    },{
+      "name": "Operator",
       "scope" : "keyword.operator",
       "settings" : {
         "foreground" : "#FFFFFF6F"
-      },
-      "name" : "Operator"
-    },
-    {
+      }
+    },{
+      "name": "Entity",
       "scope" : "entity",
       "settings" : {
         "foreground" : ""
-      },
-      "name" : "Entity"
-    },
-    {
+      }
+    },{
+      "name": "Function name",
       "scope" : "entity.name.function",
       "settings" : {
         "fontStyle" : "bold"
-      },
-      "name" : "Function name"
-    },
-    {
+      }
+    },{
+      "name": "Tag Name",
       "scope" : "entity.name.tag",
       "settings" : {
         "foreground" : "#C6F56A"
-      },
-      "name" : "Tag Name"
-    },
-    {
+      }
+    },{
+      "name": "Tag attribute",
       "scope" : "entity.other.attribute-name",
       "settings" : {
 
-      },
-      "name" : "Tag attribute"
-    },
-    {
+      }
+    },{
+      "name": "Punctuation",
       "scope" : "punctuation - comment - constant - string, meta.brace, meta.delimiter",
       "settings" : {
         "foreground" : "#FFFFFFBF"
-      },
-      "name" : "Punctuation"
-    },
-    {
+      }
+    },{
+      "name": "Regular Expression",
       "scope" : "string.regexp",
       "settings" : {
         "fontStyle" : "",
         "foreground" : "#FF8BFF"
-      },
-      "name" : "Regular Expression"
-    },
-    {
+      }
+    },{
+      "name": "Regular Expression (escape)",
       "scope" : "string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition",
       "settings" : {
         "foreground" : "#A082BD"
-      },
-      "name" : "Regular Expression (escape)"
-    },
-    {
+      }
+    },{
+      "name": "Invalid",
       "scope" : "invalid",
       "settings" : {
         "background" : "#FF4444",
         "foreground" : "#FFFFFF"
-      },
-      "name" : "Invalid"
-    },
-    {
+      }
+    },{
+      "name": "Deprecated",
       "scope" : "invalid.deprecated",
       "settings" : {
         "background" : "#AE81FF50",
         "foreground" : "#F8F8F0"
-      },
-      "name" : "Deprecated"
-    },
-    {
+      }
+    },{
+      "name": "CSS Selector",
       "scope" : "meta.selector.css",
       "settings" : {
         "foreground" : "#FFFFFF"
-      },
-      "name" : "CSS Selector"
-    },
-    {
+      }
+    },{
+      "name": "Punctuation",
       "scope" : "meta.selector.css punctuation",
       "settings" : {
         "foreground" : "#F8F8F08F"
-      },
-      "name" : "Punctuation"
-    },
-    {
+      }
+    },{
+      "name": "Property Name",
       "scope" : "support.type.property-name.css",
       "settings" : {
         "foreground" : "#F8F8F088"
-      },
-      "name" : "Property Name"
-    },
-    {
+      }
+    },{
+      "name": "CSS Constant",
       "scope" : "meta.property-value support.constant.named-color.css, meta.property-value constant",
       "settings" : {
         "foreground" : "#BBD2DE"
-      },
-      "name" : "CSS Constant"
+      }
+    },{
+      "name": "diff.inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#A6E22E"
+      }
+    },{
+      "name": "diff.changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#967EFB"
+      }
+    },{
+      "name": "diff.deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#F92672"
+      }
     }
   ]
 }
