@@ -39,6 +39,7 @@
 				<string>stippled_underline</string>
 			</dict>
 		</dict>
+		<!-- String -->
 		<dict>
 			<key>name</key>
 			<string>Strings</string>
@@ -50,6 +51,7 @@
 				<string>#91E1FF</string>
 			</dict>
 		</dict>
+		<!-- Variable -->
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
@@ -61,6 +63,7 @@
 				<string>#9FB2BC</string>
 			</dict>
 		</dict>
+		<!-- Variable: Parameter -->
 		<dict>
 			<key>name</key>
 			<string>Function argument</string>
@@ -74,6 +77,7 @@
 				<string>#F5F1F2AF</string>
 			</dict>
 		</dict>
+		<!-- Constant: Numeric -->
 		<dict>
 			<key>name</key>
 			<string>Number</string>
@@ -85,6 +89,7 @@
 				<string>#FFCD22</string>
 			</dict>
 		</dict>
+		<!-- Constant: Built-in -->
 		<dict>
 			<key>name</key>
 			<string>Built-in constant</string>
@@ -96,6 +101,7 @@
 				<string>#BBD2DE</string>
 			</dict>
 		</dict>
+		<!-- Comment -->
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
@@ -107,6 +113,7 @@
 				<string>#FFFFFF50</string>
 			</dict>
 		</dict>
+		<!-- Comment: Punctuation -->
 		<dict>
 			<key>name</key>
 			<string>Comment Punctuation</string>
@@ -118,6 +125,7 @@
 				<string>#FFFFFF20</string>
 			</dict>
 		</dict>
+		<!-- Library -->
 		<dict>
 			<key>name</key>
 			<string>Library</string>
@@ -129,6 +137,7 @@
 				<string></string>
 			</dict>
 		</dict>
+		<!-- Keyword -->
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
@@ -140,6 +149,7 @@
 				<string>#C6F56A</string>
 			</dict>
 		</dict>
+		<!-- Keyword: Storage -->
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
@@ -149,8 +159,11 @@
 			<dict>
 				<key>foreground</key>
 				<string>#C6F56A</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
+		<!-- Keyword: Operator -->
 		<dict>
 			<key>name</key>
 			<string>Operator</string>
@@ -162,6 +175,7 @@
 				<string>#FFFFFF6F</string>
 			</dict>
 		</dict>
+		<!-- Entity -->
 		<dict>
 			<key>name</key>
 			<string>Entity</string>
@@ -169,10 +183,11 @@
 			<string>entity</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
+		<!-- Entity: Function -->
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
@@ -181,9 +196,10 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string>none</string>
 			</dict>
 		</dict>
+		<!-- Entity: Tag -->
 		<dict>
 			<key>name</key>
 			<string>Tag Name</string>
@@ -195,6 +211,7 @@
 				<string>#C6F56A</string>
 			</dict>
 		</dict>
+		<!-- Entity: Attribute -->
 		<dict>
 			<key>name</key>
 			<string>Tag attribute</string>
@@ -203,17 +220,19 @@
 			<key>settings</key>
 			<dict/>
 		</dict>
+		<!-- Punctuation -->
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation - comment - constant - string, meta.brace, meta.delimiter</string>
+			<string>punctuation - comment - constant - string, meta.delimiter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFFBF</string>
+				<string>#FFFFFFAF</string>
 			</dict>
 		</dict>
+		<!-- Regular Expression -->
 		<dict>
 			<key>name</key>
 			<string>Regular Expression</string>
@@ -227,6 +246,7 @@
 				<string>#FF8BFF</string>
 			</dict>
 		</dict>
+		<!-- Regular Expression: Escaped Chars -->
 		<dict>
 			<key>name</key>
 			<string>Regular Expression (escape)</string>
@@ -238,6 +258,7 @@
 				<string>#A082BD</string>
 			</dict>
 		</dict>
+		<!-- Invalid -->
 		<dict>
 			<key>name</key>
 			<string>Invalid</string>
@@ -251,6 +272,7 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
+		<!-- Invalid: Deprecated -->
 		<dict>
 			<key>name</key>
 			<string>Deprecated</string>
@@ -264,6 +286,7 @@
 				<string>#F8F8F0</string>
 			</dict>
 		</dict>
+		<!-- CSS: Selector -->
 		<dict>
 			<key>name</key>
 			<string>CSS Selector</string>
@@ -275,6 +298,7 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
+		<!-- CSS: Selector Punctuation -->
 		<dict>
 			<key>name</key>
 			<string>Punctuation</string>
@@ -286,6 +310,7 @@
 				<string>#F8F8F08F</string>
 			</dict>
 		</dict>
+		<!-- CSS: Property Name -->
 		<dict>
 			<key>name</key>
 			<string>Property Name</string>
@@ -297,6 +322,7 @@
 				<string>#F8F8F088</string>
 			</dict>
 		</dict>
+		<!-- CSS: Constant -->
 		<dict>
 			<key>name</key>
 			<string>CSS Constant</string>
@@ -306,6 +332,30 @@
 			<dict>
 				<key>foreground</key>
 				<string>#BBD2DE</string>
+			</dict>
+		</dict>
+		<!-- Braces -->
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>meta.brace, paren</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF8F</string>
+			</dict>
+		</dict>
+		<!-- Diff -->
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
 			</dict>
 		</dict>
 		<dict>
@@ -328,17 +378,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#967EFB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
 			</dict>
 		</dict>
 	</array>
