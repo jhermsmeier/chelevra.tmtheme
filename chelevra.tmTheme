@@ -12,7 +12,7 @@
 				<key>activeGuide</key>
 				<string>#F5F1F210</string>
 				<key>background</key>
-				<string>#2D2D2D</string>
+				<string>#2B303B</string>
 				<key>bracketsForeground</key>
 				<string>#F8F8F2A5</string>
 				<key>bracketsOptions</key>
@@ -86,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFCD22</string>
+				<string>#FFD74A</string>
 			</dict>
 		</dict>
 		<!-- Constant: Built-in -->
@@ -98,7 +98,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#BBD2DE</string>
+				<string>#9dbad2</string>
 			</dict>
 		</dict>
 		<!-- Comment -->
@@ -110,7 +110,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF50</string>
+				<string>#FFFFFF3A</string>
 			</dict>
 		</dict>
 		<!-- Comment: Punctuation -->
@@ -346,7 +346,7 @@
 				<string>#FFFFFF8F</string>
 			</dict>
 		</dict>
-		<!-- Diff -->
+		<!-- Diff / GitGutter Plugin -->
 		<dict>
 			<key>name</key>
 			<string>diff.deleted</string>
