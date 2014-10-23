@@ -2,17 +2,4 @@
 
 ## Install
 
-Copy `Chelevra.tmTheme` to you `Color Scheme - Default` directory.
-
-## Contribute
-
-```shell
-# Fork.
-$ git clone git@github.com:yourusername/chelevra.tmtheme.git
-$ cd chelevra.tmtheme/src
-# Edit.
-$ vi chelevra.json && ./build.sh
-# Push
-$ git add . && git commit && git push
-# Pull Request.
-```
+Copy `chelevra.tmTheme` to you `Color Scheme - Default` directory.
