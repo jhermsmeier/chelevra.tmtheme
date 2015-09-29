@@ -86,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFD74A</string>
+				<string>#FFD75F</string>
 			</dict>
 		</dict>
 		<!-- Constant: Built-in -->
@@ -98,7 +98,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9dbad2</string>
+				<string>#9DBAD2</string>
 			</dict>
 		</dict>
 		<!-- Comment -->
