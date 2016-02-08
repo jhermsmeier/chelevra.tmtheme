@@ -12,7 +12,7 @@
 				<key>activeGuide</key>
 				<string>#F5F1F210</string>
 				<key>background</key>
-				<string>#2B303B</string>
+				<string>#263238</string>
 				<key>bracketsForeground</key>
 				<string>#F8F8F2A5</string>
 				<key>bracketsOptions</key>
@@ -44,7 +44,7 @@
 			<key>name</key>
 			<string>Strings</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
