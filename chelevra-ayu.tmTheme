@@ -349,9 +349,53 @@
 		<!-- Diff / GitGutter Plugin -->
 		<dict>
 			<key>name</key>
+			<string>diff.source</string>
+			<key>scope</key>
+			<string>source.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.range.unified</string>
+			<key>scope</key>
+			<string>meta.diff.range.unified, punctuation.definition.range.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD75F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.from-file</string>
+			<key>scope</key>
+			<string>source.diff meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF8F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.to-file</string>
+			<key>scope</key>
+			<string>source.diff meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF8F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>diff.deleted</string>
 			<key>scope</key>
-			<string>markup.deleted</string>
+			<string>markup.deleted, punctuation.definition.from-file.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -362,7 +406,7 @@
 			<key>name</key>
 			<string>diff.inserted</string>
 			<key>scope</key>
-			<string>markup.inserted</string>
+			<string>markup.inserted, punctuation.definition.to-file.diff</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
