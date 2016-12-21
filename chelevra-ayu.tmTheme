@@ -436,6 +436,108 @@
 				<string>#FFFFFF40</string>
 			</dict>
 		</dict>
+		<!-- Markdown -->
+		<dict>
+			<key>name</key>
+			<string>markdown.bold</string>
+			<key>scope</key>
+			<string>markup.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.italic</string>
+			<key>scope</key>
+			<string>markup.italic.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown</string>
+			<key>scope</key>
+			<string>text.html.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.punctuation</string>
+			<key>scope</key>
+			<string>text.html.markdown punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF6F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.heading</string>
+			<key>scope</key>
+			<string>markup.heading.markdown entity.name.section.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.heading.marker</string>
+			<key>scope</key>
+			<string>punctuation.definition.heading.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF8F</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.link.name</string>
+			<key>scope</key>
+			<string>string.other.link.title.markdown, constant.other.reference.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9DBAD2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.link.url</string>
+			<key>scope</key>
+			<string>markup.underline.link.markdown, meta.link.inline.markdown punctuation.definition.metadata.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CF5F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>markdown.code</string>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown, markup.raw.block.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1CFAF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A38D71E8-1879-404F-ADB7-3BA8479816C1</string>
