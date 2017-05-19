@@ -550,6 +550,33 @@
 				<string>#E6E1CFAF</string>
 			</dict>
 		</dict>
+		<!-- Makefile -->
+		<dict>
+			<key>name</key>
+			<string>makefile.fn</string>
+			<key>scope</key>
+			<string>entity.name.function.makefile</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C6F56A</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>makefile.prerequisites</string>
+			<key>scope</key>
+			<string>meta.function.prerequisites.makefile</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#F5F1F2AF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A38D71E8-1879-404F-ADB7-3BA8479816C1</string>
