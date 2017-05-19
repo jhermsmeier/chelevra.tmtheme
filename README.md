@@ -1,7 +1,5 @@
 # Chelevra Theme
 
-<center>![Chelevra Ayu Screenshot]</center>
-
 ## Install via [ColorSublime](https://github.com/Colorsublime/Colorsublime-Themes)
 
 - Install the [ColorSublime Plugin](https://github.com/Colorsublime/Colorsublime-Plugin) via [Package Control](https://sublime.wbond.net/installation)
