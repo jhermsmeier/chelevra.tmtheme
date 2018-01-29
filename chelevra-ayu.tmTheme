@@ -497,7 +497,7 @@
 			<key>name</key>
 			<string>markdown.heading</string>
 			<key>scope</key>
-			<string>markup.heading.markdown entity.name.section.markdown</string>
+			<string>markup.heading entity.name.section.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
