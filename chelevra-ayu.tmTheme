@@ -19,6 +19,8 @@
 				<string>underline</string>
 				<key>caret</key>
 				<string>#91E1FB</string>
+				<key>block_caret</key>
+				<string>#91E1FB</string>
 				<key>findHighlight</key>
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
