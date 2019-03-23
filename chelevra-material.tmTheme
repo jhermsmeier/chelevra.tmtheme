@@ -174,7 +174,7 @@
 				<key>foreground</key>
 				<string>#C6F56A</string>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 			</dict>
 		</dict>
 		<!-- Keyword: Operator -->
@@ -198,7 +198,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 			</dict>
 		</dict>
 		<!-- Entity: Function -->
