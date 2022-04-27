@@ -1,0 +1,132 @@
+{
+  "name": "Chelevra",
+  "variables": {
+    // ...
+    "background": "#0A0E14",
+    "foreground": "#E6E1CF",
+    // ...
+    "caret_blue": "#91E1FB",
+    "string_blue": "#91E1FF",
+    "variable_gray": "#9FB2BC",
+    "keyword_green": "#C6F56A",
+    "number_orange": "#FFD75F",
+    "constant_gray": "#9DBAD2",
+    "comment_fade": "#FFFFFF3F",
+    "comment_punc": "#FFFFFF20",
+    "operator_fade": "#FFFFFF6F",
+    "punctuation_fade": "#FFFFFFAF",
+    "regex_pink": "#FF8BFF",
+    "regex_purple": "#A082BD",
+    "diff_source": "#E6E1CF",
+    "diff_changed": "#967EFB",
+    "diff_inserted": "#A6E22E",
+    "diff_deleted": "#F92672",
+    "diff_from_file": "#E6E1CF8F",
+    "diff_to_file": "#E6E1CF8F",
+    "diff_unified_range": "#FFD75F",
+  },
+  "globals": {
+    "background": "#10141C",
+    "foreground": "#E6E1CF",
+    "invisibles": "#808080AA",
+    "caret": "var(caret_blue)",
+    "block_caret": "var(caret_blue)",
+    // "block_caret_border": "",
+    // "block_caret_underline": "",
+    // "block_caret_corner_style": "round",
+    // "block_caret_corner_radius": "1",
+    "line_highlight": "#33333300",
+    // ...
+    // "misspelling": "",
+    // "fold_marker": "",
+    // "minimap_border": "",
+    "accent": "#E6B450",
+    // Selection
+    "selection": "#B4C2D60F",
+    "selection_border": "#B4C2D630",
+    // "selection_foreground": "",
+    "selection_border_width": "1",
+    "inactive_selection": "#B4C2D60F",
+    "inactive_selection_border": "#B4C2D630",
+    // "inactive_selection_foreground": "",
+    "selection_corner_style": "round",
+    "selection_corner_radius": "1",
+    // Find
+    // "highlight": "",
+    // "find_highlight": "",
+    // "find_highlight_foreground": "",
+    // "scroll_highlight": "",
+    // "scroll_selected_highlight": "",
+    // Rulers
+    // "rulers": "",
+    // Guides
+    // "guide": "",
+    // "active_guide": "",
+    // "stack_guide": "",
+  },
+  "rules": [
+    // Keywords
+    { "scope": "keyword", "foreground": "var(keyword_green)" },
+    // { "scope": "support.type", "foreground": "var(keyword_green)" },
+    { "scope": "storage.type", "foreground": "var(keyword_green)" },
+    { "scope": "storage.modifier", "foreground": "var(keyword_green)" },
+    // Storage
+    { "scope": "entity.name.constant", "foreground": "var(constant_gray)" },
+    { "scope": "source.java storage.type, source.haskell storage.type, source.c storage.type", "foreground": "var(constant_gray)" },
+    { "scope": "source.java meta.class.java meta.class.identifier.java storage.type.java", "foreground": "var(constant_gray)" },
+    // Operators
+    { "scope": "keyword.operator", "foreground": "var(operator_fade)" },
+    // Built-in Constants
+    { "scope": "constant.language", "foreground": "var(constant_gray)" },
+    // TODO: FInd another color for `constant.other
+    // { "scope": "constant.other", "foreground": "var(constant_gray)" },
+    // Strings
+    { "scope": "string - meta.template - string.unquoted", "foreground": "var(string_blue)" },
+    { "scope": "constant.other.symbol", "foreground": "var(string_blue)" },
+    { "scope": "string.quoted", "foreground": "var(string_blue)" },
+    // Strings: Character Escapes
+    { "scope": "constant.character.escape", "foreground": "color(var(string_blue) blend(var(background) 80%))" },
+    // Numbers
+    { "scope": "constant.numeric", "foreground": "var(number_orange)" },
+    { "scope": "constant.numeric.base, constant.numeric.suffix", "foreground": "color(var(number_orange) blend(var(background) 80%))" },
+    { "scope": "storage.type.numeric", "foreground": "color(var(number_orange) blend(var(background) 80%))" },
+    // Comments
+    { "scope": "comment", "foreground": "var(comment_fade)" },
+    { "scope": "comment punctuation", "foreground": "var(comment_punc)" },
+    // TODO: { "scope": "comment.block.documentation entity.other.attribute-name", "foreground": "var(operator_fade)" },
+    // Punctuation
+    { "scope": "punctuation - comment - constant - string", "foreground": "var(punctuation_fade)" },
+    { "scope": "punctuation.definition.template-expression", "foreground": "var(punctuation_fade)" },
+    { "scope": "punctuation.section.interpolation", "foreground": "var(punctuation_fade)" },
+    { "scope": "meta.delimiter", "foreground": "var(punctuation_fade)" },
+    { "scope": "meta.preprocessor", "foreground": "var(punctuation_fade)" },
+    // Regular Expressions
+    { "scope": "string.regexp", "foreground": "var(regex_pink)" },
+    { "scope": "string.regexp.arbitrary-repitition", "foreground": "var(regex_purple)" },
+    { "scope": "string.regexp constant.character", "foreground": "var(regex_purple)" },
+    { "scope": "string.regexp constant.character.escape", "foreground": "var(regex_purple)" },
+    // Functions: Arguments
+    { "scope": "variable.parameter", "font_style": "italic", "foreground": "#F5F1F2AF" },
+    { "scope": "variable.language", "foreground": "#F5F1F2BF" },
+    // TODO { "scope": "meta.method.parameters", "font_style": "italic" },
+    // TODO { "scope": "meta.function.parameters", "font_style": "italic" },
+    // HTML / XML / SGML / Entities
+    { "scope": "entity.name.tag, meta.tag.sgml", "foreground": "var(keyword_green)" },
+    // Config sections
+    { "scope": "entity.name.section", "foreground": "var(keyword_green)" },
+    // { "scope": "meta.mapping.key", "foreground": "var(constant_gray)" },
+    // { "scope": "meta.mapping.value", "foreground": "var(constant_gray)" },
+    // Markdown
+    { "scope": "markup.heading", "font_style": "bold" },
+    { "scope": "markup.bold", "font_style": "bold", "foreground": "var(foreground)" },
+    { "scope": "markup.italic", "font_style": "italic", "foreground": "var(foreground)" },
+    { "scope": "markup.raw", "foreground": "var(foreground)" },
+    { "scope": "markup.heading punctuation", "foreground": "var(comment_fade)" },
+    { "scope": "meta.paragraph", "foreground": "#BFBDB6" },
+    // TypeScript
+    // { "scope": "source.ts support.type", "foreground": "color(var(foreground) blend(var(background) 50%))" },
+    // { "scope": "source.ts support.class", "foreground": "color(var(foreground) blend(var(background) 50%))" },
+    { "scope": "source.ts storage.modifier", "foreground": "var(operator_fade)" },
+    // { "scope": "source.ts variable.parameter.function", "foreground": "color(var(foreground) blend(var(background) 85%))" },
+  ]
+}
